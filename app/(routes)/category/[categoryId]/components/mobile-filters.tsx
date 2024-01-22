@@ -44,7 +44,7 @@ const MobileFilters: React.FC<MobileFiltersProps> = ({
                             />
                         </div>
 
-                        {/* render the filters */}
+                        {/* Render the filters */}
                         <div className="p-4">
                             <Filter
                                     valueKey="sizeId" 
