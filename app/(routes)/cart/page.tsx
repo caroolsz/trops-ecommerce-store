@@ -1,9 +1,11 @@
 "use client";
 
-
 import Container from "@/components/ui/container";
 import useCart from "@/hooks/use-cart";
-import { useEffect, useState } from "react";
+
+import CartItem from "@/components/cart-item";
+import Summary from "@/components/summary";
+
 
 const CartPage = () => {
     const cart = useCart();
@@ -17,9 +19,15 @@ const CartPage = () => {
                         <div className="lg:col-span-7">
                             {cart.items.length === 0 && <p className="text-neutral-500"> Não há produtos no carrinho.</p>}
                         <ul>
-                         
+                            {cart.items.map((item) => (
+                                <CartItem 
+                                    key={item.id}
+                                    data={item}
+                                />
+                            ))}
                         </ul>
                         </div>
+                        <Summary />
                     </div>
                 </div>
             </Container>
