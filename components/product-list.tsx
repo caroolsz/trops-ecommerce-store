@@ -12,8 +12,8 @@ const ProductList: React.FC<ProductListProps> = ({
     items
 }) => {
     return ( 
-        <div className="space-y-4">
-            <h3 className="font-bold text-3xl">
+        <div className="space-y-4 text-center pb-6">
+            <h3 className="font-bold text-3xl pb-6">
                 {title}
             </h3>
             {items.length === 0 && <NoResults />}

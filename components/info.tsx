@@ -40,7 +40,7 @@ const Info: React.FC<InfoProps> = ({
                     </div>
                 </div>
                 <div className="flex items-center gap-x-4"> 
-                    <p className="pl-4">
+                    <p className="pl-4 pt-4 pb-4">
                      {data?.description}
                     </p>
                 </div>
