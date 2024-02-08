@@ -39,10 +39,9 @@ const Info: React.FC<InfoProps> = ({
                         <div className="h-6 w-6 rounded-full border border-gray-600" style={{ backgroundColor: data?.color?.value }} />
                     </div>
                 </div>
-                <div className="flex items-center gap-x-4">
-                    {/* Create Description on admin */}
+                <div className="flex items-center gap-x-4"> 
                     <p className="pl-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                     {data?.description}
                     </p>
                 </div>
             </div>
