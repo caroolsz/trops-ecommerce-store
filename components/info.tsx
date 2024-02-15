@@ -18,14 +18,14 @@ const Info: React.FC<InfoProps> = ({
                 {data.name}
             </h1>
             <hr className="my-4"/>
-            <div className="mt-3 flex items-end justify-between" >
+            <div className="flex items-end justify-between my-5" >
                 <p className="text-2xl text-gray-900" >
                     <Currency value={data?.price}/>
                 </p>
             </div>
             <hr className="my-4"/>
             <div className="flex flex-col gap-y-6">
-                <div className="flex items-center justify-around">
+                <div className="flex items-center justify-around mt-5">
                     <div className="flex items-center gap-x-4" >
                         <h3 className="font-semibold text-black">
                             Size: 
@@ -45,6 +45,7 @@ const Info: React.FC<InfoProps> = ({
                     </p>
                 </div>
             </div>
+            <hr className="my-4"/>
             <div className="mt-10 flex items-center gap-x-3">
                 <Button className="flex items-center rounded-full bg-black px-4 py-2">
                     <ShoppingCart />
