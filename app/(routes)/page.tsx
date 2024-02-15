@@ -22,11 +22,6 @@ const HomePage = async () => {
                         </h2>
                     </div>
                     <ProductList title="" items={products}/>
-                    <div className="flex justify-center items-center">
-                        <Button className="rounded-md text-lg text-gray-800 p-2 bg-green-400 border border-gray-300 max-w-md">
-                            Ver todos
-                        </Button>
-                    </div>
                 </div>
             </div>
             <hr className="my-4"/>
