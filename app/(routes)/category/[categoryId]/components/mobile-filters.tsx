@@ -2,7 +2,7 @@
 
 import Button from "@/components/ui/button";
 import IconButton from "@/components/ui/icon-button";
-import { Color, Size } from "@/types";
+import { Color as Cor, Size as Tamanho } from "@/types";
 import { Dialog } from "@headlessui/react";
 import { Plus, X } from "lucide-react";
 import { useState } from "react";
@@ -10,8 +10,8 @@ import Filter from "./filter";
 
 
 interface MobileFiltersProps {
-    sizes: Size[];
-    colors: Color[];
+    sizes: Tamanho[];
+    colors: Cor[];
 };
 
 const MobileFilters: React.FC<MobileFiltersProps> = ({
