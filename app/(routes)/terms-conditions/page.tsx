@@ -15,7 +15,7 @@ const TermsConditions = () => {
                 <p className="text-center mx-10 lg:text-left text-base mb-5">
                     Bem-vindo ao Website do Trops. Ao navegar neste Website, o Utilizador aceita, expressamente e sem reservas, todas as disposições incluídas nos presentes Termos e Condições que, em conjunto com a nossa política de privacidade regem a relação do Trops com o utilizador em referência a este Website.
                     <br/><br/>
-                    A designação Trops ou "nós" refere-se ao proprietário do Website, com sede em R. Instituto Nun&aposAlvares, 54 4780-035 Areias. O termo "Utilizador" designa o utilizador ou visitante do Website.
+                    A designação Trops ou "nós" refere-se ao proprietário do Website, com sede em R. Instituto Nun&quot;Alvares, 54 4780-035 Areias. O termo "Utilizador" designa o utilizador ou visitante do Website.
                     <br/><br/>
                     O Website do Trops pode ser utilizado sem ser necessário realizar qualquer registo de Utilizador.
                     <br/><br/>

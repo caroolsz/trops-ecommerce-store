@@ -13,11 +13,11 @@ const AboutUs = () => {
             </div>
             <div className="lg:flex lg:flex-col lg:items-center mb-10">
                 <p className="text-center mx-10 lg:text-left text-base">
-                    Fundada em 2023/2024, a loja "Trops" surge como uma resposta à procura por equipamentos desportivos de alta qualidade e acessórios para uma variedade de atividades físicas. 
+                    Fundada em 2023/2024, a loja &quot;Trops&quot; surge como uma resposta à procura por equipamentos desportivos de alta qualidade e acessórios para uma variedade de atividades físicas. 
                     <br/><br/>
-                    Na "Trops", os clientes encontram uma ampla gama de artigos desportivos, desde roupas e calçados especializados até equipamentos e acessórios para uma variedade de modalidades. Seja você um corredor ávido, um praticante de yoga comprometido ou um amante de desporto ao ar livre, a "Trops" oferece produtos projetados para atender às suas necessidades e elevar a sua experiência desportiva.
+                    Na &quot;Trops&quot;, os clientes encontram uma ampla gama de artigos desportivos, desde roupas e calçados especializados até equipamentos e acessórios para uma variedade de modalidades. Seja você um corredor ávido, um praticante de yoga comprometido ou um amante de desporto ao ar livre, a &quot;Trops&quot; oferece produtos projetados para atender às suas necessidades e elevar a sua experiência desportiva.
                     <br/><br/>
-                    Além disso, "Trops" não se limita apenas a fornecer produtos de alta qualidade; visa criar um espaço inclusivo e acolhedor para todos os que compartilham a sua paixão pelo movimento e pela saúde. Assim, a não somos apenas uma loja, mas uma comunidade viva para os apaixonados pelo estilo de vida ativo e saudável.
+                    Além disso, &quot;Trops&quot; não se limita apenas a fornecer produtos de alta qualidade; visa criar um espaço inclusivo e acolhedor para todos os que compartilham a sua paixão pelo movimento e pela saúde. Assim, a não somos apenas uma loja, mas uma comunidade viva para os apaixonados pelo estilo de vida ativo e saudável.
                 </p>
             </div>
         </Container>
