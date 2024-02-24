@@ -25,7 +25,7 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div className='flex flex-col items-center mr-8 px-10 mb-8 lg:mb-0 mt-4'>
-                    <a href='tel:911784604  ' className='text-black'>
+                    <a href='tel:911784604' className='text-black'>
                         <Phone size={62} />
                     </a>
                     <p className='font-bold mt-4'>
