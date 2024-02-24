@@ -25,9 +25,16 @@ export default function RootLayout({
       <body className={font.className}>
         <ModalProvider />
         <ToastProvider />
-        <NavBar />
-        {children}
-        <Footer />
+
+        <div className='h-full flex flex-col justify-between'>
+          <div>
+            <NavBar />
+            {children}
+          </div>
+          
+          <Footer />
+        </div>
+       
       </body>
     </html>
   )

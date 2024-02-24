@@ -12,8 +12,8 @@ const Footer = () => {
     const isWarrantyReturn = pathname === "/warranty-return";
 
     return ( 
-        <footer className="bg-white border-t bottom-0 left-0 w-full text-center py-5">
-            <div className="flex justify-center space-x-5">
+        <footer className="bg-white border-t w-full text-center pt-4 px-8 mt-10">
+            <div className="flex flex-wrap justify-center space-x-5 gap-5">
                 <Link href="/terms-conditions">
                     <p className={`text-sm font-medium transition-colors hover:text-green-500 ${isTermsConditions ? "text-green-600" : "text-neutral-500"}`}>
                         Termos e Condições
@@ -32,6 +32,11 @@ const Footer = () => {
                 <Link href="/warranty-return">
                     <p className={`text-sm font-medium transition-colors hover:text-green-500 ${isWarrantyReturn ? "text-green-600" : "text-neutral-500"}`}>
                         Garantia e Devoluções 
+                    </p>
+                </Link>
+                <Link href="https://livroreclamacoes.pt/Inicio/" target="_blank">
+                    <p className={`text-sm font-medium transition-colors text-neutral-500 hover:text-green-500`}>
+                        Livro de Reclamações
                     </p>
                 </Link>
             </div>

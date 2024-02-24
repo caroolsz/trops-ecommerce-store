@@ -4,7 +4,7 @@ import Billboard from "@/components/billboard";
 import Container from "@/components/ui/container";
 import ProductList from "@/components/product-list";
 import Button from "@/components/ui/button";
-import Link from "next/link"; // Importe o componente Link do Next.js
+import Link from "next/link"; 
 
 export const revalidate = 0;
 
