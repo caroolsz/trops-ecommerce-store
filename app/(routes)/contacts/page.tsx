@@ -48,14 +48,14 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className="flex flex-col items-center mr-8 px-10 mb-8 lg:mb-0 mt-10">
-                <a href="https://www.google.com/maps/place/scola+Profissional+do+Instituto+Nun'Alvres+-+Oficina/@41.368822,-8.479954,594m/data=!3m1!1e3!4m6!3m5!1s0xd24f60088a8d6e5:0x1ea946592b98996a!8m2!3d41.3689838!4d-8.4811374!16s%2Fg%2F1tcw9ggz?hl=pt&entry=ttu" target="_blank" className="text-black">
+                <a href="https://www.google.com/maps/place/scola+Profissional+do+Instituto+Nun&aposAlvres+-+Oficina/@41.368822,-8.479954,594m/data=!3m1!1e3!4m6!3m5!1s0xd24f60088a8d6e5:0x1ea946592b98996a!8m2!3d41.3689838!4d-8.4811374!16s%2Fg%2F1tcw9ggz?hl=pt&entry=ttu" target="_blank" className="text-black">
                     <MapPin size={62} />
                 </a>
                 <p className="font-bold mt-4">
                     Morada
                 </p>
                 <p className="mt-2 text-center">
-                R. Instituto Nun'Alvares, 54 <br/>
+                R. Instituto Nun&aposAlvares, 54 <br/>
                 4780-035 Areias - Santo Tirso - Portugal
                 </p>
             </div>

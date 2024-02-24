@@ -12,11 +12,11 @@ const PrivacyPolitics = () => {
                 <p className="text-center mx-10 lg:text-left text-base mb-5">
                     O Trops reconhece a importância da privacidade dos dados pessoais dos Utilizadores do seu Website. Esta política de privacidade explica de que forma utilizamos os dados pessoais recolhidos através deste Website. Por favor leia esta política de privacidade antes de utilizar o Website ou fornecer-nos voluntariamente quaisquer dados pessoais. Ao utilizar este Website, aceita as práticas descritas nesta política de privacidade. Esta política pode ser alterada, mas quaisquer alterações apenas se aplicarão a atividades e dados pessoais a partir desse momento, sem efeitos retroativos. Aconselhamos que consulte a política de privacidade sempre que visitar o nosso Website para se assegurar que compreende como utilizamos qualquer informação pessoal que nos forneça.
                     <br/><br/>
-                    Os seus dados serão tratados pelo Trops, com sede em R. Instituto Nun'Alvares, 54 4780-035 Areias, doravante "Trops" ou "nós". Este grupo é o responsável pelo tratamento de dados pessoais na aceção do Regulamento Geral sobre a Proteção de Dados.
+                    Os seus dados serão tratados pelo Trops, com sede em R. Instituto Nun&aposAlvares, 54 4780-035 Areias, doravante "Trops" ou "nós". Este grupo é o responsável pelo tratamento de dados pessoais na aceção do Regulamento Geral sobre a Proteção de Dados.
                     <br/><br/>
                     Para as questões relacionadas com o tratamento dos seus dados pessoais deverá contactar-nos através dos seguintes meios:
                     <br/>
-                    <span className="font-bold">Morada:</span> R. Instituto Nun'Alvares, 54 4780-035 Areias
+                    <span className="font-bold">Morada:</span> R. Instituto Nun&aposAlvares, 54 4780-035 Areias
                     <br/>
                     <span className="font-bold">Email:</span> a8970@oficina.pt
                     <br/><br/>
