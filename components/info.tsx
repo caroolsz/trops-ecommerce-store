@@ -8,9 +8,9 @@ import useCart from "@/hooks/use-cart";
 
 interface InfoProps {
     data: Product
-};
-
-const Info: React.FC<InfoProps> = ({ data }) => {
+  };
+  
+  const Info: React.FC<InfoProps> = ({ data }) => {
     const cart = useCart();
   
     const onAddToCart = () => {
@@ -53,7 +53,7 @@ const Info: React.FC<InfoProps> = ({ data }) => {
             <hr className="my-4"/>
             <div className="mt-10 flex items-center gap-x-3">
                 <Button onClick={onAddToCart} className="flex items-center rounded-full bg-black px-4 py-2">
-                    <ShoppingCart />
+                    <ShoppingCart size={20} />
                     &nbsp;
                     Adicionar ao Carrinho
                 </Button>
